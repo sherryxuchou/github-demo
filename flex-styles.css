@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(37, 2, 97);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.child1, 
+.child2,
+.child3{
+    border-radius: 20px;
+    border: 10px solid rgb(37, 2, 97);
+    font-size: 100px;
+    text-align: center;
+
+}
+
+.child1{
+    width: 400px;
+    height: 900px; 
+    background-color: #5D3FD3; 
+}
+
+.child1:hover{
+    flex-grow: 1;
+}
+
+.child2{
+    width: 200px;
+    height: 900px;
+    background-color: #CBC3E3;
+  }
+
+  .child2:hover{
+    flex-grow: 2;
+  }
+
+  .child3{
+    width: 600px;
+    height: 900px;
+    background-color: #C3B1E1;
+  }   
+
+  .child3:hover{
+    flex-grow: 1;
+  }
+ 
+

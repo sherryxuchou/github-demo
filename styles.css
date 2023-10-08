@@ -1,0 +1,27 @@
+body{
+    background-color: skyblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 36pt;
+    font-weight: bold;
+}
+
+p{
+    text-align: center;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+.flexlink{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.gridlink{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
